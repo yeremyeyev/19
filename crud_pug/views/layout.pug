@@ -1,0 +1,20 @@
+doctype html 
+html(lang="ru")
+    head  
+        meta(charset='UTF-8')
+        meta(name='viweport', content='width=device-width, initial-scale=1')
+        title= title
+        link(rel='stylesheet', href='/css/bootstrap.mini.css')
+        link(rel='stylesheet', href='/style.css')
+    body
+        nav.navbar.navbar-inverse.navbar-fixed-top
+          .container
+              #navbar.collapse.navbar-collapse
+                  ul.nav.navbar-nav
+                      li.active 
+                          a(href='/') домой
+                      li  
+                          a(href='/courses') Курсы
+        .container
+          .main-content
+              block content
