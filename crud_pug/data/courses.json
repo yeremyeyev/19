@@ -1,7 +1,7 @@
 [
   {
-    "id":1,
-    "name": "JS"
+    "id": 1,
+    "name": "Javascript"
   },
   {
     "id":2,
@@ -10,5 +10,9 @@
   {
     "id":3,
     "name": "Angular"
+  },
+  {
+    "id":4,
+    "name": "Go-Lang"
   }
 ]

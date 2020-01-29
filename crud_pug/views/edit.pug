@@ -6,7 +6,7 @@ block content
     form(method="post")
         fieldset.from-group 
             label(for="name") Name:
-            input.form-control(id="name, name="name", type='text', placeholder="Введите имя курсора", value=course-name)
+            input.form-control(id="name, name="name", type='text', placeholder="Введите имя курсора", value=course.name)
             small.text-muted Добавить свой новый курс 
         button.btn.btn-primary(type="submit") Создать курс
         a.btn.btn-default(href="/courses") Отмена
